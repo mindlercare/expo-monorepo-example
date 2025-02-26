@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "turbo dev",
     "dev:example": "turbo dev --filter=\"{./apps/example}...\"",
-    "lint": "turbo lint",
+    "lint": "turbo lint -- --fix",
     "test": "turbo test",
     "build": "turbo build",
     "build:example": "turbo build --filter=\"...{./apps/example}\""
